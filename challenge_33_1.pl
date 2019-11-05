@@ -1,17 +1,16 @@
 #!/usr/bin/perl
 
-#########################################################
-#														#		
-# Execution method : perl <script_name> <file1> <file2>	#
-#														#
-#########################################################
+#####################################################################
+#																	#		
+# Execution method : perl <script_name> <input_file1> <input_file2>	#
+#																	#
+#####################################################################
 
 use strict;
 use warnings;
 use File::Slurp;
 use Data::Dumper;
 use List::Util qw(sum);
-
 
 foreach my $file( @ARGV ){
 	if(!-e $file){

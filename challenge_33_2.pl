@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $rows = 11;
+my $rows = 11; #Since it is 11x11 multiplication table
 
 my ($i, $j);
 for($i=1; $i<=$rows; $i++){

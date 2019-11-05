@@ -26,7 +26,7 @@ foreach my $file( @ARGV ){
 	my %counts;
 	
 	foreach ( @lines ){
-		foreach my $char ( split //, $_ ) { 
+		foreach my $char ( split //, $_ ){ 
 			next unless ($char =~ /[a-zA-Z]/);
 			$counts{lc($char)}++;
 		}		
